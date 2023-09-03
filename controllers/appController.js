@@ -1,7 +1,7 @@
 const bent = require('bent')
 const getJSON = bent('json')
 const ADJECTIVES_API_URL = "https://random-word-form.repl.co/random/adjective"
-const NOUNS_API_URL = "https://github.com/JMoicano/falaportugues/res/job-nouns.json"
+const NOUNS_API_URL = "https://raw.githubusercontent.com/JMoicano/falaportugues/main/res/job-nouns.json"
 
 Array.prototype.random = function () {
     return this[Math.floor((Math.random()*this.length))];
