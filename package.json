@@ -4,7 +4,8 @@
   "description": "New trend amoung young people generator",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/JMoicano/falaportugues/issues"
   },
-  "homepage": "https://github.com/JMoicano/falaportugues#readme"
+  "homepage": "https://github.com/JMoicano/falaportugues#readme",
+  "dependencies": {
+    "bent": "^7.3.12",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "routes": "^2.1.0"
+  }
 }
